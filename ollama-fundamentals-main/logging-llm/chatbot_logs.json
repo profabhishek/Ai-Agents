@@ -1,0 +1,41 @@
+{
+    "timestamp": "2026-05-25T15:07:16.136623",
+    "level": "INFO",
+    "type": "user_input",
+    "user_input": "Hi, my name is abhishek, iam a chess enthisiast",
+    "metadata": {
+        "session_id": "fdb36f75-617d-42f3-b9a5-0f6d03c077f0",
+        "model": "llama3.2-vision"
+    }
+}
+{
+    "timestamp": "2026-05-25T15:07:45.225896",
+    "level": "INFO",
+    "type": "model_response",
+    "model_response": "Nice to meet you, Abhishek! Being a chess enthusiast is a great hobby! Do you play chess regularly, or are you more interested in analyzing games and studying strategies? Are you a casual player or do you aim to improve your skills?",
+    "metadata": {
+        "session_id": "fdb36f75-617d-42f3-b9a5-0f6d03c077f0",
+        "model": "llama3.2-vision",
+        "response_time_seconds": 29.085106,
+        "tokens_used": 86
+    }
+}{
+    "timestamp": "2026-05-25T15:19:08.694940",
+    "level": "INFO",
+    "type": "user_input",
+    "user_input": "iam abhishek",
+    "metadata": {
+        "session_id": "b8b74a5a-fec4-41f6-9e7a-29297f038e34",
+        "model": "llama3.21-vision"
+    }
+}
+{
+    "timestamp": "2026-05-25T15:19:11.424799",
+    "level": "ERROR",
+    "type": "error",
+    "error_message": "Error code: 404 - {'error': {'message': \"model 'llama3.21-vision' not found\", 'type': 'not_found_error', 'param': None, 'code': None}}",
+    "metadata": {
+        "session_id": "b8b74a5a-fec4-41f6-9e7a-29297f038e34",
+        "model": "llama3.21-vision"
+    }
+}
